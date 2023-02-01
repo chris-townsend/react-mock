@@ -8,8 +8,8 @@ export default function Navbar() {
         <span className="logo">Social</span>
       </div>
       <div className="topbarCenter">
-        <div className="searchbar">
-          <Search />
+        <div className="searchBar">
+          <Search className="searchIcon" />
           <input placeholder="Search for friends, posts and more" className="searchInput" />
         </div>
       </div>
@@ -36,6 +36,7 @@ export default function Navbar() {
             <span className="topbarIconBadge">1</span>
           </div>
         </div>
+      <img src="/assets/images/people/person-1.jpg" alt="" className="topbarImg" />
       </div>
 
     </div>
