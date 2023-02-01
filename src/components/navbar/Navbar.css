@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Itim&family=Karla:wght@300;400&display=swap');
+
 .topbarContainer {
     height: 50px;
     width: 100%;
@@ -9,6 +11,7 @@
 }
 
 .logo {
+    font-family: 'Itim', cursive;
     font-size: 24px;
     margin-left: 20px;
     font-weight: bold;
@@ -30,8 +33,10 @@
 }
 
 .searchInput {
+    font-family: 'Karla', sans-serif;
     border: none;
     width: 70%;
+    background-color: whitesmoke;
 }
 
 .searchInput:focus {
@@ -54,6 +59,7 @@
 }
 
 .topbarLink {
+    font-family: 'Karla', sans-serif;
     margin-right: 10px;
     font-size: 14px;
     cursor: pointer;
@@ -73,16 +79,21 @@
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-color: rgb(196, 42, 0);
+    background-color: rgb(44, 104, 122);
     color: whitesmoke;
     position: absolute;
     align-items: center;
     justify-content: center;
     font-size: 12px;
+    top: -5px;
+    right: -5px;
+    display: flex;
 }
 
 .topbarImg {
-    width: 35px;
-    height: 35px;
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
 }
