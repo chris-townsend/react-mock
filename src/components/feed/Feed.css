@@ -5,3 +5,7 @@
 .feedWrapper {
     padding: 20px;
 }
+
+.shareOptions {
+    display: flex;
+}
