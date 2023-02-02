@@ -65,6 +65,8 @@
     cursor: pointer;
 }
 
+
+
 .topbarIcons {
     display: flex;
 }
@@ -73,6 +75,10 @@
     margin-right: 15px;
     cursor: pointer;
     position: relative;
+}
+
+.topbarIconItem:hover {
+    transform: scale(1.2);
 }
 
 .topbarIconBadge {
